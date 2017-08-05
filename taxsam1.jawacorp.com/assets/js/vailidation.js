@@ -16,7 +16,29 @@ jQuery(function($) {"use strict";
 
 		build : function() {
 		},
-		
+		//form validation
+		// validateForm : function() {
+		// $('#submit').click(function() {
+		// var email = $('#email').val();
+		// if (email == '') {
+		// $('#email').parents('.form-block').addClass('error')
+		// return false;
+		// }
+		// if (IsEmail(email) == false) {
+		// $('#email').parents('.form-block').addClass('error')
+		// return false;
+		// }
+		// });
+		// function IsEmail(email) {
+		// var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+		// if (!regex.test(email)) {
+		// return false;
+		// } else {
+		// $('#email').parents('.form-block').removeClass('error')
+		// }
+		// }
+		//
+		// },
 		validation : function() {
 			var bool = true;
 
@@ -97,10 +119,10 @@ jQuery(function($) {"use strict";
 								$('#message').val('');
 								//$('#name,#sub,#email,#message').next().removeClass("focussed");
 								//$('.ch').css('top', 0)
-								//$('#success').find('div').fadeOut();
+								$('#success').find('div').fadeOut();
 								$('#success').fadeIn(500);
 								
-								$('#success').find('div').fadeIn();
+								
 								setTimeout(function() {
 									$('#success').find('div').fadeOut();
 

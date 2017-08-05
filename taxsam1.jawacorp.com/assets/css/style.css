@@ -48,152 +48,605 @@
 /*
  1.1) Banner Section
  -----------------------------*/
-.homepage #slider {
+
+/*
+ 1.1) Banner Section
+ -----------------------------*/
+.homepage-2 #slider {
 	width: 100%;
 }
-.homepage .banner-slider {
+#slider h1, #slider .h1 {
+	color: #fff;
+	font-weight: 900;
+}
+.homepage-2 .banner-slider {
 	position: relative;
 	width: 100%;
 }
-
-.homepage .banner-slider h2 {
-	margin-bottom: 23px;
-	font-size: 60px;
-	color: #fff;
-	line-height: 1 !important;
-	font-family: 'Merriweather', serif;
-	font-weight: 700;
-	font-style: italic;
-	text-transform: inherit;
+.homepage-2 h1 span {
+	display: block;
+	font-weight: 600;
+	font-size: 24px;
 }
-.homepage .banner-slider .h1 {
-	margin-bottom: 15px;
-	font-size: 55px !important;
-	color: #fff;
-	line-height: 1 !important;
-	font-family: 'Merriweather', serif;
-	font-weight: 700;
+.homepage-2 .banner-slider  .slider-text {
+	font-size: 16px;
+	color: #ffffff;
 	font-style: italic;
-	text-transform: inherit;
+	font-family: Georgia, serif;
+	white-space: normal;
+	word-break: normal;
+	line-height: 1.6;
+}
+.homepage-2 .banner-slider  .tp-caption {
+	position: absolute;
+	left: 56% !important;
+}
+.homepage-2 .banner-slider  .layer-b {
+	width: 32% !important;
+}
+.homepage-2 .banner-slider  .layer-c {
+	left: 75% !important;
+	text-align: right;
+}
+.homepage-2 .boxed .banner-slider .layer-c {
+	margin-left: -40px !important
+}
+.homepage-2 .banner-slider  .layer-c span {
+	color: #fff;
+	display: block;
+	margin-bottom: 3px;
+}
+.homepage-2 .banner-slider  .layer-c a {
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+.homepage-2 .banner-slider  .tp-simpleresponsive .tp-caption span.slider-text {
+	display: block;
+}
+.homepage-2 .banner-slider .btn-effect {
+	font-size: 13px;
+	color: #3d3c37;
+	border-radius: 40px;
+	line-height: 46px;
+	padding: 0 20px;
+	background: #f3de78;
+	min-width: 195px;
+	display: block;
+	margin-top: 80px;
+}
+.homepage-2 .banner-slider .layer-d {
+	width: 67px;
+	height: 67px;
+	border-radius: 100%;
+	overflow: hidden;
+	border: 3px solid #fff;
+	left: 83% !important;
+}
+.homepage-2 .banner-slider .layer-d img {
+	width: 66px !important;
+	height: 66px !important;
+}
+/*
+ 1.2) about-us section
+ -----------------------------*/
+.homepage-2 .about-us {
+	padding-top: 64px;
+	min-height: 612px;
+	background: #ffffff;
+	position: relative;
+	padding-bottom: 40px;
 }
 
-.homepage .banner-slider .item-3 .h1 {
+.homepage-2 .about-us .about-us-detail {
 	text-align: center;
+	position: relative;
+}
+.homepage-2 .about-us .icon-civil {
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.homepage-2 .about-us .about-us-details {
+	border-bottom: 1px solid #e9ecee;
+	margin: 8px auto 0;
+	padding-bottom: 29px;
+	width: 83%;
+}
+.homepage-2 .about-us .about-us-heading {
+	font-size: 16px;
+	color: #3f3d31;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.5;
+	margin-bottom: 25px;
+	display: block;
+}
+
+.homepage-2 .about-us .contact-details {
+	margin: 34px auto 0;
+	width: 500px;
+}
+
+.homepage-2 .about-us .phone-number {
+	font-size: 22px;
+	color: #ffffff;
+	font-weight: 700;
+	text-decoration: none;
+	min-width: 230px;
+	display: inline-block;
+	background: #b3a96c;
+	border-radius: 30px;
+	text-align: center;
+	padding: 9px 10px;
+}
+.homepage-2 .about-us  .contact-details > span {
+	font-size: 13px;
+	color: #44525a;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.homepage-2 .about-us  .contact-details .email-build {
+	margin-left: 4px;
+}
+.homepage-2 .about-us .seprate {
+	font-size: 13px;
+	color: #44525a;
+	text-transform: uppercase;
+	margin-left: 7px;
+}
+#slider.top {
+	margin-top: 88px;
+}
+#slider.top-m {
+	margin-top: 88px;
+}
+
+/*
+ 1.3) practice-area section
+ -----------------------------*/
+.homepage-2 .practice-area {
+	padding-top: 95px;
+	padding-bottom: 75px;
+	background: #f2f3f7;
+}
+
+.homepage-2 .practice-area .h3 {
+	position: relative;
+	line-height: 32px;
+	margin-bottom: 16px;
+}
+.homepage-2 .practice-area .h3:after {
+	width: 34px;
+	height: 1px;
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	display: block;
+	background: #b3a96c;
+}
+.homepage-2 .practice-area  .family-group {
+	margin-top: 31px;
+	margin-bottom: 0px;
+	min-height: 90px;
+	text-align: left;
+}
+
+.homepage-2 .practice-area .practice-law-list {
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
-.homepage .banner-slider .hero-slider-two  h2, .banner-slider .hero-slider-two  span {
-	color: #2b2a2f;
-}
-.homepage .banner-slider span {
-	padding-bottom: 10px;
-	font-size: 16px !important;
-	color: #fff;
-	display: block;
-	font-family: 'Merriweather', serif;
-	white-space: normal;
-	line-height: 1.5 !important;
-}
-body.homepage .banner-slider span {
-	width: 454px !important;
-}
-body.homepage .banner-slider .item-3 span {
-	max-width: 807px !important;
-	width: 100% !important;
-}
 
-.p-text {
-	padding-bottom: 10px;
-	font-size: 16px !important;
-	color: #fff;
-	display: block;
-	font-family: 'Merriweather', serif;
-	white-space: normal;
-	width: 460px;
-	line-height: 1.5 !important;
-}
-.homepage .banner-slider  .btn-effect i {
+/*
+ 1.4) client Info
+ -----------------------------*/
 
-	margin-right: 10px;
-	position: absolute;
-	left: 12px;
-	top: 50%;
-	transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-}
-.homepage .banner-slider .item-2 *, .homepage .banner-slider .item-3 * {
-	color: #2b2a2f;
-}
-.homepage .banner-slider  .btn-effect {
-	font-family: 'Exo', sans-serif;
-	font-size: 14px !important;
-	color: #ffffff;
-	background: #ee3135;
-	border: none;
-	text-transform: uppercase;
-	border-radius: 0;
-	padding: 17px 20px 17px 50px !important;
-	margin-top: 20px;
-	font-weight: 600;
+.homepage-2 .client {
 	position: relative;
+	width: 100%;
+	padding: 81px 0 50px;
+	background: #ffffff;
+	min-height: 438px;
 }
-.homepage .banner-slider .item-2 .btn.btn-default, .homepage .banner-slider .item-3 .btn.btn-default {
-	color: #2b2a2f;
-	background: #ffffff !important;
+.homepage-2 .client .client-listing {
+	list-style: none;
+	margin-top: 10px;
+}
+.homepage-2 .client h2 {
+	margin-top: 12px;
+}
+.homepage-2 .client .section-header .about-tag {
+	margin-bottom: 8px;
+}
+.homepage-2 .client .client-listing li {
+	float: left;
+	margin-right: 5px;
+	min-height: 84px;
+	position: relative;
+	text-align: center;
+	width: 16%;
+}
+.homepage-2 .client .client-listing  li img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.homepage-2 .hiring-info-detail {
+	padding-top: 80px;
+	min-height: 275px;
+	padding-bottom: 40px;
+	background: #f2f3f7;
+}
+.homepage-2 .hiring-info-detail  .icon-civil {
+
+	float: left;
+	margin-top: 15px;
+}
+.homepage-2 .hiring-info-detail  .about-tag {
+
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #34424a;
+}
+.homepage-2 .hiring-info-detail .heading-hiring {
+	float: right;
+	width: 77%;
+}
+.homepage-2 .hiring-info-detail .heading-hiring .about-tag::after {
+	display: none;
+}
+.homepage-2 .hiring-info-detail .apply-section p {
+	padding-left: 40px;
+	font-size: 14px;
+	color: #869198;
+}
+.homepage-2 .hiring-info-detail .apply-section {
+	border-left: 1px solid #b3a96c;
+}
+.homepage-2 .btn-grey {
+	min-width: 165px;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+	line-height: 45px;
+	font-size: 15px;
+	display: inline-block;
+	background: #b3a96c;
+	border-radius: 30px;
+	margin-top: 15px;
+	margin-left: 45px;
+	font-weight: 700;
+	text-decoration: none;
+	outline: none;
 }
 
-.homepage .banner-slider .slider-three-content {
-	left: 0 !important;
+/*
+ 1.5) Attorney
+ -----------------------------*/
+.homepage-2 .attorney {
+	position: relative;
+	padding-top: 105px;
+	background: #ffffff;
+	min-height: 945px;
+	padding-bottom: 50px;
+}
+.homepage-2 .attorney .about-tag:after {
+	left: 0;
+	right: auto;
+}
+.homepage-2 .attorney h3 .status {
+	font-size: 14px;
+	color: #8f8d83;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.homepage-2 .attorney h3 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.homepage-2 .attorney .attorney-listing figure {
 	width: 100%;
+	height: 262px;
+	overflow: hidden;
+}
+
+.homepage-2 .attorney .about-tag {
+	margin-bottom: 42px;
+}
+.homepage-2 .news-update-block {
+	padding-left: 35px;
+}
+.homepage-2 .news-upadte-content {
+	min-height: 546px;
+	padding: 52px 58px;
+	background: url(../img/news-update.jpg) center top no-repeat;
+	margin-top: 10px;
+}
+.homepage-2 .news-listing-detail .left-block {
+	float: left;
+	width: 20%;
+}
+.homepage-2 .news-listing-detail .left-block > span {
+	font-size: 15px;
+	color: #ffffff;
+	display: block;
+	text-align: right;
+	text-transform: uppercase;
+}
+.homepage-2 .news-listing-detail .left-block span > span {
+	font-size: 36px;
+	color: #ffffff;
+	font-weight: 900;
+	display: block;
+}
+.homepage-2 .news-listing-detail .right-block {
+	float: right;
+	padding-top: 11px;
+	width: 72%;
+}
+.homepage-2 .news-listing-detail .right-block h5 {
+	font-size: 13px;
+	color: #ffffff;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.homepage-2 .news-listing-detail .right-block p {
+	font-size: 14px;
+	color: #d4c7ba;
+	line-height: 1.8;
+}
+.homepage-2 .news-listing-detail .right-block .arrow-more {
+	margin-top: 16px;
+	border: 2px solid #ffffff;
+	padding: 6px 12px;
+}
+.homepage-2 .news-listing-detail .right-block .arrow-more .fa-angle-right {
+	color: #ffffff;
+}
+.news-listing-detail a i {
+	font-size: 22px;
+	position: relative;
+	top: -2px;
+}
+.news-listing-detail a:hover i {
+	color: #fff !important;
+}
+.homepage-2 .update-list-two {
+	margin-top: 68px;
+}
+
+/*
+ 1.6) testimonial section
+ -----------------------------*/
+
+.homepage-2 .testimonial {
+	background: #e4dfbe;
+	width: 100%;
+	position: relative;
+	padding-top: 110px;
+	min-height: 670px;
+	padding-bottom: 50px;
+}
+.homepage-2 .testimonial .testimonial-content {
+	text-align: center;
+	margin-top: 6px;
+}
+.homepage-2 .testimonial h2 {
+	margin-top: 10px;
+}
+.homepage-2 .testimonial .testimonial-detail {
+	color: #848172;
+	font-size: 16px;
+	font-style: italic;
+}
+.homepage-2 .testimonial .about-tag {
+	margin-bottom: 20px;
+}
+.homepage-2 .testimonial .side-colon {
+	position: relative;
+	padding: 20px 0px;
+}
+.homepage-2 .testimonial .side-colon:before {
+	position: absolute;
+	top: 0;
+	left: -30px;
+	width: 24px;
+	height: 24px;
+	content: "";
+	background: url(../img/sprites.png) -13px -74px no-repeat;
+}
+
+.homepage-2 .testimonial .side-colon:after {
+	background: url("../img/sprites.png") -13px -109px no-repeat;
+	bottom: -12px;
+	content: "";
+	height: 24px;
+	position: absolute;
+	right: -33px;
+	width: 24px;
+}
+.homepage-2 .testimonial-member {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.homepage-2 .testimonial .member-container {
+	width: 23%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 24px;
+}
+.homepage-2 .testimonial .member-pics {
+	float: left;
+	width: 72px;
+	height: 72px;
+	border-radius: 50%;
+	opacity: .5;
+}
+.homepage-2 .member-pics figure {
+	width: 72px;
+	height: 72px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.homepage-2 .testimonial .member-pics img {
+	width: 100%;
+}
+.homepage-2 .testimonial .member-content {
+	width: 63%;
+	float: left;
+	padding-left: 25px;
+	padding-top: 20px;
+}
+.homepage-2 .testimonial .member-content span, .testimonial .member-content strong {
+	font-size: 14px;
+	color: #999988;
+	display: block;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+.homepage-2 .testimonial .member-content strong {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+}
+.homepage-2 .testimonial .member-container:hover .member-pics {
+	opacity: 1;
+}
+.homepage-2 .testimonial .member-container:hover .member-content strong, .homepage-2 .testimonial .member-container:hover .member-content span {
+	color: #3f3d31;
+}
+.homepage-2 .testimonial .owl-buttons {
+	display: none;
+}
+.homepage-2 .testimonial .owl-pagination {
+	margin-top: 40px;
+}
+.homepage-2 .testimonial .owl-theme .owl-controls .owl-page span {
+	background: #e4e2d7;
+	border: 2px solid #ffffff;
+}
+.homepage-2 .testimonial .owl-theme .owl-controls .owl-page.active span, .homepage-2 .testimonial .owl-theme .owl-controls .owl-page span:hover {
+
+	border: 2px solid #3f3d31;
+}
+/*
+ 1.7) Some common css for all section
+ -----------------------------*/
+
+.homepage-2 .about-tag {
+	font-size: 13px;
+	color: #44525a;
+	text-transform: uppercase;
+	font-weight: 400;
+	position: relative;
+	display: block;
+	margin-bottom: 35px;
+	font-family: 'Open Sans', sans-serif;
+}
+.homepage-2 .about-tag:after {
+	width: 34px;
+	height: 1px;
+	content: "";
+	position: absolute;
+	bottom: -19px;
+	right: 0px;
+	left: 0;
+	margin: 0 auto;
+	display: block;
+	background: #b3a96c;
+}
+.homepage-2  .arrow-more {
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+	border: 1px solid #b3a96c;
+	display: block;
+	margin-top: 26px;
+	padding: 6px 15px;
 	text-align: center;
 }
+.homepage-2 .content-description {
+	color: #869198;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 29px;
+	margin: 0;
+}
+.attorney .attorney-listing a i {
+	font-size: 22px;
+	position: relative;
+	top: -1px;
+	left: -2px
+}
+.attorney .news-listing-detail a i {
 
-#slider.top-m, #slider.top {
-	margin-top: 130px;
+	top: -2px;
+	left: 0px
 }
-
-.banner-slider .item-2 .layer-a, .banner-slider .item-2 .layer-b, .banner-slider .item-2 .layer-c {
-	left: 0 !important;
+.attorney a:hover i {
+	color: #fff !important;
 }
-.banner-slider .item-3 .layer-a, .banner-slider .item-3 .layer-b, .banner-slider .item-3 .layer-c {
-	left: 0 !important;
-	right: 0;
-	margin: 0 auto !important;
+.homepage-2 .practice-area .section-header, .homepage-2  .testimonial .section-header, .homepage-2 .client .section-header {
+	text-align: center;
 }
-.slide-content {
-	position: absolute;
+.homepage-2 .practice-area .section-header .icon-civil, .homepage-2 .testimonial .section-header .icon-civil, .homepage-2 .client .section-header .icon-civil {
+	margin: 0 auto;
+}
+.homepage-2 .practice-area .about-tag:after, .homepage-2 .testimonial .about-tag:after, .homepage-2 .client .about-tag:after {
 	left: 0;
 	right: 0;
+	margin: 0 auto;
+}
+
+/*
+ 1.8) Owl carousal slider css
+ -----------------------------*/
+
+/*custom css for owl carousal*/
+.homepage-2 .attorney .attorney-listing img {
 	width: 100%;
-	top: 50%;
-	transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
 }
-.boxed .slide-content {
-	padding: 0 15px;
+.homepage-2 .attorney .attorney-listing {
+	padding-top: 7px;
 }
-.slide-content-2 {
+
+.homepage-2 .attorney .owl-wrapper {
+	/*background: #ffffff;*/
+}
+.homepage-2 .attorney .owl-wrapper .owl-item {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.homepage-2 .attorney .owl-wrapper .owl-item:first-child {
+
+}
+.homepage-2 .attorney .owl-theme .owl-controls {
 	position: absolute;
-	left: 50%;
-	width: 50%;
-	top: 50%;
-	transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-}
-.slide-content-3 {
-	position: absolute;
-	left: 0;
 	right: 0;
-	max-width: 824px;
-	width: 100%;
-	top: 57%;
-	padding: 0 20px;
-	margin: 0 auto !important;
+	text-align: center;
+	top: -70px;
 }
-.tp-simpleresponsive .caption, .tp-simpleresponsive .tp-caption {
-	position: static;
+.homepage-2 .attorney .owl-theme .owl-controls .owl-page span {
+	background: #ffffff;
+	border: 2px solid #b6b19a;
+}
+.homepage-2 .attorney .owl-theme .owl-controls .owl-page.active span {
+	border: 2px solid #f3de78;
+}
+.homepage-2  .owl-theme .owl-controls .owl-page span {
+
+	margin: 5px 2px;
 }
 
 /*
@@ -206,7 +659,7 @@ body.homepage .banner-slider .item-3 span {
 }
 .practice-area .section-header .practice-desp, .news-testimonial .practice-desp, .about-us .practice-desp, .client .practice-desp {
 	font-size: 14px;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #79797a;
 	line-height: 45px;
 }
@@ -230,44 +683,26 @@ body.homepage .banner-slider .item-3 span {
 	margin-bottom: 27px;
 	min-height: 90px;
 }
-.practice-area  .family-group .family-law-svg {
-	width: 125px;
-	height: 80px;
-	margin: 0 auto;
-}
-.practice-area  .family-group .bussiness-law-svg {
-	width: 72px;
-	height: 66px;
-	margin: 0 auto;
-}
-
-.practice-area  .family-group .trust-law-svg {
-	width: 80px;
-	height: 90px;
-	margin: 0 auto;
-}
-.practice-area  .family-group .civilean-law-svg {
-	width: 96px;
-	height: 81px;
-	margin: 0 auto;
-}
-
 .family-law a i {
-	font-size: 9px;
+	font-size: 22px;
 	position: relative;
-	top: 0px;
+	top: -1px;
+	left: -1px
+}
+.family-law a:hover i {
+	color: #fff !important;
 }
 .practice-area .family-law p {
 	font-size: 13px;
 	color: #79797a;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 20px;
 }
 
 .practice-area .more-btn {
 	font-size: 12px;
 	color: #ee3135;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 }
@@ -279,7 +714,7 @@ body.homepage .banner-slider .item-3 span {
  1.3)news-testimonial
  ----------------------------*/
 .news-testimonial {
-	padding-top: 74px;
+	padding-top: 70px;
 	padding-bottom: 60px;
 	background: #ffffff;
 }
@@ -291,12 +726,9 @@ body.homepage .banner-slider .item-3 span {
 	margin-bottom: 22px;
 	display: block;
 }
-.news-testimonial  h4 a {
-	color: #2b2a2f;
-}
 
 .news-testimonial  .figure-description {
-	margin-top: 18px;
+	margin-top: 15px;
 	margin-bottom: 25px;
 }
 .news-testimonial .spacer-mobile figure {
@@ -308,7 +740,7 @@ body.homepage .banner-slider .item-3 span {
 	color: #2b2a2f;
 	font-weight: 600;
 	font-size: 14px;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	float: left;
 	position: relative;
 	display: block;
@@ -331,18 +763,14 @@ body.homepage .banner-slider .item-3 span {
 .news-testimonial p, .tab-content p {
 	color: #79797a;
 	font-size: 13px;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	line-height: 1.8;
-}
-.tab-content p {
-	line-height: 1.6;
 }
 .news-testimonial .posted-law {
 	font-size: 12px;
 	color: #2b2a2f;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
 	text-decoration: none;
@@ -362,7 +790,7 @@ body.homepage .banner-slider .item-3 span {
 }
 .news-testimonial .user-testimonial {
 	background: url(../img/testimonial-img.jpg) center top no-repeat;
-	padding-top: 54px;
+	padding-top: 60px;
 	position: relative;
 	min-height: 380px;
 }
@@ -394,13 +822,13 @@ body.homepage .banner-slider .item-3 span {
 .news-testimonial  .user-description {
 	font-size: 14px;
 	color: #a48a8a;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 18px;
 }
 .news-testimonial .testimonial-inner .user-name {
 	font-size: 14px;
 	color: #ffffff;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .news-testimonial .fk-stars {
 	list-style: outside none none;
@@ -434,7 +862,6 @@ body.homepage .banner-slider .item-3 span {
 	list-style: none;
 	margin-top: -15px;
 	text-align: left !important;
-	margin-left: 15px;
 }
 .news-testimonial .owl-pagination .owl-page span, .news-testimonial .owl-theme .owl-controls .owl-page span {
 
@@ -456,10 +883,10 @@ body.homepage .banner-slider .item-3 span {
  1.4) about-us
  -----------------------------*/
 .about-us {
-	padding-top: 55px;
+	padding-top: 60px;
 	position: relative;
 	background: #f5f5f6;
-	padding-bottom: 50px;
+	min-height: 1065px;
 }
 .about-us .section-header {
 	padding-bottom: 18px;
@@ -482,10 +909,8 @@ body.homepage .banner-slider .item-3 span {
 	font-size: 16px;
 	color: #79797a;
 	text-transform: uppercase;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
-	padding-left: 0;
-	padding-bottom: 5px;
 }
 .about-us .nav-tabs .active a, .about-us .nav-tabs .active a:hover, .about-us .nav-tabs .active a:active {
 	color: #2b2a2f;
@@ -503,7 +928,7 @@ body.homepage .banner-slider .item-3 span {
 	content: "";
 	display: block;
 	height: 2px;
-	left: 0;
+	left: 15px;
 	position: absolute;
 	width: 27px;
 }
@@ -523,10 +948,7 @@ body.homepage .banner-slider .item-3 span {
 	width: 390px;
 	float: right;
 	text-align: right;
-	margin-top: 61px;
-}
-.about-us .moment p {
-	margin-top: 25px;
+	margin-top: 70px;
 }
 .about-us .moment figure {
 	width: 100%;
@@ -542,7 +964,6 @@ body.homepage .banner-slider .item-3 span {
 }
 .about-us  #home {
 	position: relative;
-	min-height: 800px;
 }
 .about-us .block-box {
 	margin-bottom: 30px;
@@ -553,7 +974,7 @@ body.homepage .banner-slider .item-3 span {
 .about-us .moment-right {
 	float: left;
 	text-align: left;
-	margin-top: 77px;
+	margin-top: 88px;
 }
 
 .about-us .seprater {
@@ -638,7 +1059,7 @@ body.homepage .banner-slider .item-3 span {
 	font-size: 14px;
 	text-transform: uppercase;
 	display: block;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-top: 8px;
 }
 .about-us #profile {
@@ -669,7 +1090,6 @@ body.homepage .banner-slider .item-3 span {
 .client .client-listing {
 	list-style: none;
 	margin-top: 54px;
-	margin-top: 39px;
 }
 .client .client-listing  li {
 	float: left;
@@ -690,7 +1110,7 @@ body.homepage .banner-slider .item-3 span {
  1.6) hiring-info
  -----------------------------*/
 .hiring-info {
-	padding: 60px 0;
+	padding: 55px 0;
 	background: url(../img/footer-top-back.jpg) center top no-repeat
 }
 
@@ -699,12 +1119,12 @@ body.homepage .banner-slider .item-3 span {
 	color: #ffffff;
 	font-weight: 600;
 	text-transform: inherit;
-	margin-bottom: 17px;
+	margin-bottom: 10px;
 }
 .hiring-info .hiring-detail {
 	font-size: 14px;
 	color: #a48a8a;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	width: 90%;
 }
 .hiring-info .btn-footer {
@@ -764,7 +1184,7 @@ body.homepage .banner-slider .item-3 span {
 	font-size: 60px;
 	color: #ffffff;
 	text-transform: capitalize;
-	font-family: 'Merriweather', serif !important;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-style: italic;
 }
@@ -789,7 +1209,7 @@ body.homepage .banner-slider .item-3 span {
 .heading-details {
 	font-size: 14px;
 	color: #79797a;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 36px;
 	display: block;
 }
@@ -1032,7 +1452,7 @@ h3.panel-title a.collapsed .fa-angle-down {
 	display: block;
 	font-size: 13px;
 	color: #2b2a2f;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	display: block;
 	margin-top: 10px;
 	font-weight: 600;
@@ -1080,7 +1500,7 @@ h3.panel-title a.collapsed .fa-angle-down {
 	display: block;
 	font-size: 13px;
 	color: #79797a;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 10px;
 	position: relative;
 	text-transform: capitalize;
@@ -1123,48 +1543,7 @@ h3.panel-title a.collapsed .fa-angle-down {
 	min-height: 660px;
 	padding-bottom: 50px;
 }
-.contact-form-form .container {
-	position: relative;
-}
 .contact-form .container {
-	position: relative;
-}
-#map {
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-}
-.bin {
-	display: inline-block;
-	position: relative;
-}
-input.error {
-	border-color: #ff0000 !important;
-}
-#success {
-	display: none;
-	position: absolute;
-	top: -48px;
-	left: 15px;
-}
-.bin .fa-times {
-	bottom: -5px;
-	font-size: 32px;
-	position: absolute;
-	right: 9px;
-}
-.map.embed-responsive.embed-responsive-16by9 {
-	padding-bottom: 0;
-	height: 335px;
-}
-.gmnoprint, .gm-style-cc {
-	display: none;
-}
-.mapmarker {
-	font-size: 60px;
-	top: -20px !important;
 	position: relative;
 }
 .contact-form .underline-label:after {
@@ -1185,7 +1564,7 @@ input.error {
 	text-transform: capitalize;
 	font-size: 13px;
 	color: #a1a1a6;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .form-block textarea {
 	min-height: 192px;
@@ -1205,10 +1584,17 @@ input.error {
 	display: block;
 	font-weight: 700;
 	height: 44px;
+	text-decoration: none;
 }
 .detail-submit:hover {
-
+	text-decoration: none;
 	color: #ffffff !important;
+}
+#success {
+	display: none;
+	left: 0;
+	position: absolute;
+	top: -48px;
 }
 
 /*
@@ -1249,6 +1635,8 @@ input.error {
 	height: 60px;
 	display: inline-block;
 	background: none;
+	background-repeat: no-repeat;
+	background-position: 0 -74px;
 	position: absolute;
 	left: 35px;
 }
@@ -1263,6 +1651,47 @@ input.error {
 	text-align: left;
 }
 
+.contact-form-form .container {
+	position: relative;
+}
+#map {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.bin {
+	display: inline-block;
+	position: relative;
+}
+input.error {
+	border-color: #ff0000 !important;
+}
+#success {
+	display: none;
+	position: absolute;
+	top: -48px;
+	left: 0;
+}
+.bin .fa-times {
+	bottom: -5px;
+	font-size: 32px;
+	position: absolute;
+	right: 9px;
+}
+.map.embed-responsive.embed-responsive-16by9 {
+	padding-bottom: 0;
+	height: 335px;
+}
+.gmnoprint, .gm-style-cc {
+	display: none;
+}
+.mapmarker {
+	font-size: 60px;
+	top: -20px !important;
+	position: relative;
+}
 /*
  4.1) attorney-listing Section
  -----------------------------*/
@@ -1327,7 +1756,7 @@ input.error {
 }
 .attorney-listing-page .attorney-listing-box p {
 	color: #79797A;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 }
 /*
@@ -1380,7 +1809,7 @@ input.error {
 	font-size: 18px;
 	color: #ffffff;
 	text-decoration: none;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 }
 .blog-listing-pics {
@@ -1453,7 +1882,7 @@ blog-comment li {
 	color: #79797a;
 	font-size: 14px;
 	line-height: 1.5;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .blog-admin-info span.admin {
@@ -1463,7 +1892,7 @@ blog-comment li {
 }
 .blog-page p {
 	color: #79797A;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 }
 .blog-content p {
@@ -1474,7 +1903,7 @@ blog-comment li {
 	border: 1px solid #63606d;
 	min-width: 115px;
 	height: 38px;
-	line-height: 38px;
+	line-height: 37px;
 	text-align: center;
 	display: inline-block;
 	margin-top: 25px;
@@ -1541,7 +1970,7 @@ blog-comment li {
 .featured-blog-descpt span {
 	font-size: 13px;
 	color: #9c9ca7;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
 	line-height: 1.6;
 }
@@ -1600,12 +2029,12 @@ blog-comment li {
 	margin-bottom: 15px;
 	font-size: 22px;
 	color: #ffffff;
-	padding-top: 16px;
+	padding-top: 13px;
 }
 .follow-us-list li span {
 	font-size: 11px;
 	color: #ffffff;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	display: block;
 }
 
@@ -1660,7 +2089,7 @@ blog-comment li {
 
 .blog-one-page .blog-admin-info span, .blog-one-page .blog-admin-info li, .blog-one-page .blog-admin-info li a {
 	color: #79797A;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 1;
 	text-decoration: none;
@@ -1729,7 +2158,7 @@ blog-comment li {
 .blog-two-page .blog-comment li a {
 	color: #79797a;
 	display: block;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	font-weight: 500;
 	outline: medium none;
@@ -1776,7 +2205,7 @@ blog-comment li {
 }
 .blog-details-page .blog-content p {
 	color: #79797A;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 }
 .blog-details-page .pagination-list {
@@ -1927,7 +2356,7 @@ blog-comment li {
 .blog-details-page .user-detail-header .media-selection span {
 	font-size: 13px;
 	color: #79797a;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	display: inline-block;
 	margin-right: 7px;
 	line-height: 34px;
@@ -2024,6 +2453,9 @@ blog-comment li {
 .blog-details-page .leave-comment .underline-label {
 	margin-bottom: 32px;
 }
+.blog-details-page .leave-comment .container {
+	position: relative;
+}
 .blog-details-page .leave-comment {
 	padding-bottom: 105px;
 }
@@ -2031,6 +2463,7 @@ blog-comment li {
 	padding: 0;
 	margin-top: 10px;
 }
+
 .blog-details-page .blog-comment {
 	width: 90%;
 }
@@ -2040,9 +2473,7 @@ blog-comment li {
 	font-size: 15px;
 	background: #0253a2;
 }
-.blog-details-page .leave-comment .container {
-	position: relative;
-}
+
 /*
  9.) clients Section
 
@@ -2104,7 +2535,7 @@ body .happy-clients span.posting-by {
 .happy-clients .happy-client-state p {
 	position: relative;
 	color: #79797A;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 }
 .happy-clients .happy-client-state .about-us-paragraph:before {
@@ -2176,7 +2607,7 @@ body .happy-clients span.posting-by {
 	font-weight: 700;
 	color: #2b2a2f;
 	text-transform: uppercase;
-	font-family: 'Exo', sans-serif !important;
+	font-family: 'Lato', sans-serif !important;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	line-height: 1.2;
@@ -2186,14 +2617,16 @@ body .happy-clients span.posting-by {
 	line-height: 23px;
 	margin-top: 12px;
 }
-
+.contact-form-form .container {
+	position: relative;
+}
 .contact-page .contact-details .phone {
 	margin-top: 30px;
 }
 .contact-page .contact-details .phone a, .contact-page .contact-details .phone span {
 	color: #79797A;
 	display: inline-block;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	line-height: 22px;
 	margin-top: 5px;
@@ -2353,7 +2786,7 @@ body .happy-clients span.posting-by {
 .yearwise-listing p {
 	margin-top: 25px;
 	color: #79797A;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 }
 .yearwise-listing  .spacer-right {
@@ -2435,7 +2868,7 @@ body .happy-clients span.posting-by {
 }
 .attorney-detail-page p {
 	font-size: 13px;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #79797a;
 }
 .practice-one-page .practice-detail-box-3 {
@@ -2462,9 +2895,6 @@ body .happy-clients span.posting-by {
 	padding-top: 102px;
 	padding-bottom: 106px;
 }
-.practice-details-page .detail-submit.contact-attorney:hover {
-	text-decoration: none;
-}
 .practice-details-page .our-services {
 	float: right;
 }
@@ -2481,7 +2911,7 @@ body .happy-clients span.posting-by {
 }
 .contact-attorney {
 	display: inline-block;
-	line-height: 44px;
+	line-height: 42px;
 	margin-top: 30px;
 	min-height: 44px;
 	padding-left: 34px;
@@ -2521,7 +2951,16 @@ body .happy-clients span.posting-by {
 .error-msg span {
 	font-weight: 800;
 }
-
+.bin {
+	display: inline-block;
+	position: relative;
+}
+.bin .fa-times {
+	bottom: -5px;
+	font-size: 32px;
+	position: absolute;
+	right: 9px;
+}
 /*
  15.) practice-listings-container section
 
@@ -2541,7 +2980,7 @@ body .happy-clients span.posting-by {
 .practice-listings-container p {
 	margin-bottom: 19px;
 	color: #79797A;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 }
 
@@ -2553,7 +2992,8 @@ body .happy-clients span.posting-by {
 	margin-top: 25px;
 }
 .more {
-	font-size: 13px
+	font-size: 13px;
+	display: inline-block;
 }
 .more:hover {
 	text-decoration: underline;
@@ -2593,7 +3033,7 @@ body .happy-clients span.posting-by {
 	color: #79797a;
 	padding-left: 15px;
 	text-transform: capitalize;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .search-bar form {
 	position: relative;
@@ -2702,7 +3142,7 @@ body .happy-clients span.posting-by {
 	font-size: 13px;
 	color: #79797a;
 	font-style: italic;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	word-break: break-all;
 	margin-top: 10px;
 }
@@ -2753,7 +3193,7 @@ body .happy-clients span.posting-by {
 .category-widget .panel-body {
 	font-size: 13px;
 	color: #79797a;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-top: 15px;
 	width: 100%;
 	float: none;
@@ -2836,7 +3276,7 @@ body .happy-clients span.posting-by {
 .page-widget .nav-pills > li .submenu a {
 	font-size: 13px;
 	color: #79797a;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
 	outline: none;
 	padding: 10px;
@@ -3018,7 +3458,7 @@ body .happy-clients span.posting-by {
 .directional-list li a {
 	font-size: 13px;
 	color: #79797a;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
 	outline: none;
 	position: relative;
@@ -3113,7 +3553,7 @@ body .happy-clients span.posting-by {
 .accordian-block .panel-body {
 	font-size: 13px;
 	color: #79797a;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-top: 15px;
 	width: 100%;
 	float: none;
@@ -3187,7 +3627,7 @@ body .happy-clients span.posting-by {
 	display: none;
 	font-size: 13px;
 	color: #79797a;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 1.5;
 	padding: 1px 40px 30px 30px;
 }
@@ -3200,7 +3640,7 @@ body .happy-clients span.posting-by {
 .column-griding .para-column {
 	font-size: 13px;
 	color: #79797a;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-top: 15px;
 }
 
@@ -3254,11 +3694,8 @@ body .happy-clients span.posting-by {
 .about-us-page p {
 	font-size: 13px;
 	color: #79797a;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-top: 15px;
-}
-.attorney-mob p {
-	line-height: 1.8;
 }
 .about-us-page .about-us-paragraph {
 	padding-left: 0;
@@ -3296,7 +3733,7 @@ body .happy-clients span.posting-by {
 
 .practice-details-page p {
 	color: #79797A;
-	font-family: 'Merriweather', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 }
 .user-quote p {
@@ -3325,12 +3762,6 @@ body .happy-clients span.posting-by {
 	font-weight: 700;
 }
 
-/*
- * 	Core Owl Carousel CSS File
- *	v1.3.3
- */
-
-/* clearfix */
 .owl-carousel .owl-wrapper:after {
 	content: ".";
 	display: block;
@@ -3400,10 +3831,8 @@ body .happy-clients span.posting-by {
  */
 
 .owl-theme .owl-controls {
-	margin-top: 3px;
+	margin-top: 10px;
 	text-align: center;
-	z-index: 9;
-	position: relative;
 }
 
 /* Styling Next and Prev buttons */
@@ -3411,8 +3840,6 @@ body .happy-clients span.posting-by {
 .owl-theme .owl-controls .owl-buttons div {
 	color: #FFF;
 	display: inline-block;
-	zoom: 1;
-	*display: inline;/*IE7 life-saver */
 	margin: 5px;
 	padding: 3px 10px;
 	font-size: 12px;
@@ -3425,7 +3852,6 @@ body .happy-clients span.posting-by {
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */
 .owl-theme .owl-controls.clickable .owl-buttons div:hover {
-
 	opacity: 1;
 	text-decoration: none;
 }
@@ -3434,19 +3860,20 @@ body .happy-clients span.posting-by {
 
 .owl-theme .owl-controls .owl-page {
 	display: inline-block;
-	zoom: 1;
-	*display: inline;/*IE7 life-saver */
 }
 .owl-theme .owl-controls .owl-page span {
 	display: block;
 	width: 12px;
 	height: 12px;
-	margin: 5px 9px 5px 0;
+	margin: 5px 2px;
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
 	background: #869791;
 }
 
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
-	filter: Alpha(Opacity=100);/*IE7 fix*/
 	opacity: 1;
 }
 
@@ -3466,9 +3893,5 @@ body .happy-clients span.posting-by {
 /* preloading images */
 .owl-item.loading {
 	min-height: 150px;
-	background: url(AjaxLoader.gif) no-repeat center center;
-}
-
-.tp-banner-container {
-	position: relative;
+	background: url(AjaxLoader.gif) no-repeat center center
 }

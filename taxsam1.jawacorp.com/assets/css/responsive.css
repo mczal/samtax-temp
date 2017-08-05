@@ -15,10 +15,13 @@
  1) Tablet and Desktop
  ----------------------------------------*/
 @media only screen and (min-width: 767px) {
-	#wrapper.boxed, .boxed #header, .slide-content {
+	#wrapper.boxed, .boxed #header {
 		margin: 0 auto;
 		max-width: 768px;
 		width: 100%;
+	}
+	.homepage-2 .banner-slider .layer-b {
+		width: 476px !important;
 	}
 }
 @media only screen and (max-device-width: 1024px) {
@@ -40,18 +43,35 @@
  ----------------------------------------*/
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
-	#wrapper.boxed, .boxed #header, .slide-content {
+	#wrapper.boxed, .boxed #header {
 		margin: 0 auto;
 		max-width: 970px;
 		width: 100%;
 	}
+
 	.logo svg, .footer-logo svg {
 		width: 25px;
 	}
-	.consulation .icon-consult.fa-mobile {
-		top: 7px
+	/*CSS style for Homepage2 Start here*/
+
+	.homepage-2 .news-upadte-content {
+		padding: 30px 10px;
+		min-height: 500px;
+	}
+	.homepage-2 .heading-hiring h2 {
+		font-size: 27px;
+	}
+	.homepage-2  #footer .get-theme, .homepage-2  #footer .copy-right {
+		font-size: 13px;
 	}
 
+	.homepage-2 #header .nav li {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.homepage-2 .testimonial .member-content {
+		padding-left: 0;
+	}
 	/*CSS style for Homepage start here*/
 
 	#header .media-listing li {
@@ -61,8 +81,15 @@
 		padding-left: 9px;
 		padding-right: 6px;
 	}
+	#header .nav > li {
+		padding: 32px 7px 6px;
+	}
 	#header .icon-call {
 		margin-left: -10px;
+	}
+	.homepage-2 .banner-slider .layer-b {
+		width: 34% !important;
+		top: 48% !important;
 	}
 	.practice-area .family-law p {
 		min-height: 90px;
@@ -90,6 +117,15 @@
 		line-height: 20px;
 	}
 
+	.banner-slider span.text-slider-two {
+		width: 90%;
+	}
+	.banner-slider .slider-two-content {
+		left: 45% !important;
+	}
+	.consulation .icon-consult.fa-mobile {
+		top: 7px
+	}
 	/*CSS style for Nomepage End here*/
 
 	/*CSS style for About-us start here*/
@@ -198,7 +234,7 @@
 
 @media (min-width: 1200px) {
 
-	#wrapper.boxed, .boxed #header, .slide-content {
+	#wrapper.boxed, .boxed #header {
 		max-width: 1170px;
 		width: 100%;
 	}
@@ -210,12 +246,12 @@
  ----------------------------------------*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	/*CSS style for Homepage1 start here*/
-	#wrapper.boxed, .boxed #header, .slide-content {
+	#wrapper.boxed, .boxed #header {
 		max-width: 750px;
 		width: 100%;
 	}
-	.slide-content {
-		padding: 15px;
+	#footer .nav {
+		margin-top: 8px;
 	}
 	.logo .svg-shape {
 		top: -8px;
@@ -223,43 +259,91 @@
 	.logo svg {
 		width: 16px;
 	}
-	#footer .nav {
-		margin-top: 8px;
+	.consulation .icon-consult.fa-mobile {
+		top: 0;
 	}
-	.slide-content-3 {
-
-		top: 50%;
-		transform: translateY(-50%);
-		-webkit-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
+	/*CSS style for Homepage2 start here*/
+	.homepage-2 #header .nav li a {
+		padding: 10px 1px 9px 5px;
+		font-size: 11px;
+	}
+	#header .navbar-nav > li > .dropdown-menu {
+		min-width: 156px;
+	}
+	.homepage-2 #header .nav li {
+		padding: 32px 10px 6px;
 	}
 
+	.homepage-2 .about-us .about-us-details {
+		width: auto;
+	}
+	.practice-area .family-law p {
+		line-height: 1.5;
+	}
+	.homepage-2 .news-upadte-content {
+		background-size: cover;
+	}
+	.homepage-2 .testimonial .member-content {
+		padding-left: 0;
+		width: 80%;
+	}
+	.homepage-2 .news-update-block {
+		padding: 0;
+	}
+	.homepage-2 .client .client-listing li {
+		width: 15%;
+	}
+	.homepage-2 .heading-hiring h2 {
+		font-size: 20px;
+	}
+	.homepage-2 .hiring-info-detail .heading-hiring {
+		width: 70%;
+	}
+	.homepage-2 #footer .tablet-mode {
+		margin-top: 0;
+	}
+	.homepage-2 #footer .practice-listing li a, .homepage-2 #footer .location, #footer .contact-num {
+		font-size: 13px;
+	}
+	.homepage-2 #footer .media-listing li {
+		margin-right: 5px;
+	}
 	/*CSS style for Homepage start here*/
 
 	#header .contact-number {
 		display: none;
 	}
 	#header .navbar-nav > li > a {
-		padding: 10px 7px;
+		padding: 10px 1px 10px 12px;
 	}
-	#header .navbar-nav > li > .dropdown-menu {
-		min-width: 156px;
-	}
-	.slide-content-2 {
-		left: 40%;
-	}
-	.p-text {
-		width: 431px;
+	#header .nav > li {
+		padding: 32px 3px 6px;
 	}
 
 	.about-us .moment h2 {
 		font-size: 28px;
 	}
-
-	.tp-simpleresponsive .tp-caption.slider1 {
-		left: 15% !important;
+	.banner-slider h2 {
+		font-size: 45px;
 	}
 
+	.banner-slider .btn-effect {
+		padding: 12px 20px;
+	}
+
+	.banner-slider span.text-slider-two {
+		width: 92%;
+	}
+	.banner-slider .slider-two-content {
+		left: 35% !important;
+	}
+	.banner-slider span.text-slider-three {
+
+		width: 90% !important;
+	}
+	.banner-slider .layer1.slider-three-content {
+		top: 62% !important;
+	}
 	.about-us .moment, .about-us .moment-right {
 		width: 295px;
 	}
@@ -302,9 +386,7 @@
 	.hiring-info .hiring-detail {
 		font-size: 12px;
 	}
-	#footer .main-footer {
-		padding-top: 0;
-	}
+
 	#footer .navbar-collapse {
 		padding: 0;
 	}
@@ -322,9 +404,7 @@
 	#footer .top-footer .consultation {
 		float: left;
 	}
-	#footer .tablet-mode {
-		margin-top: 40px;
-	}
+
 	#footer .main-footer .block-right {
 		margin-bottom: 30px;
 	}
@@ -661,14 +741,102 @@
  5) Mobile
  ----------------------------------------*/
 @media only screen and (max-width: 767px) {
-	#header .navbar-default .navbar-nav > .active > a, #header .navbar-default .navbar-nav > .active > a:hover, #header .navbar-default .navbar-nav > li  a:hover, #header .navbar-default .navbar-nav > .active > a:focus, #header .nav > li:hover > a {
-
-		color: #000;
-	}
 	/*CSS style for Homepage1 start here*/
 
 	#owl-demo-home.row.owl-carousel.owl-theme {
 		margin: 0 auto;
+	}
+
+	.homepage-2 .about-us .about-us-details, .homepage-2 .about-us .contact-details {
+		width: 100%;
+	}
+	.homepage-2 .about-us .seprate {
+		display: none;
+	}
+	.homepage-2 .about-us .phone-number {
+		margin: 0 auto 20px;
+		display: inline-block;
+	}
+	.homepage-2 .about-us .phone-detail {
+		text-align: center;
+	}
+	.homepage-2 .practice-area {
+
+		padding-bottom: 45px;
+		padding-top: 45px;
+	}
+	.homepage-2 .practice-area .family-law, .homepage-2 .practice-area .family-group {
+		text-align: center;
+	}
+	.homepage-2  .family-law  .arrow-more {
+		margin: 10px auto 0;
+	}
+
+	.homepage-2 .practice-area .h3:after {
+		right: 0;
+		margin: 0 auto;
+	}
+	.homepage-2 .attorney .owl-theme .owl-controls {
+
+		top: -45px;
+	}
+
+	.homepage-2 .news-update-block {
+		padding: 0;
+	}
+	.homepage-2 h2, .homepage-2 .news-listing-detail .left-block span > span {
+		font-size: 32px;
+	}
+	.homepage-2 .news-upadte-content {
+		padding: 10px;
+	}
+	.homepage-2 .news-listing-detail .left-block > span {
+		font-size: 12px;
+	}
+	.homepage-2 .news-listing-detail .right-block p {
+		font-size: 12px;
+		line-height: 1.5;
+	}
+	.homepage-2 .testimonial .side-colon::before {
+		left: 0;
+	}
+
+	.homepage-2 .testimonial .side-colon::after {
+		right: 0;
+	}
+	.homepage-2 .testimonial, .homepage-2 .client {
+		padding-top: 50px;
+	}
+	.homepage-2 .testimonial .member-container {
+		width: 100%;
+		float: none;
+	}
+
+	.homepage-2 .client .client-listing li {
+		width: 31%;
+	}
+	.homepage-2 .hiring-info-detail .heading-hiring {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.homepage-2 .hiring-info-detail .icon-civil {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.homepage-2 .hiring-info-detail .apply-section p {
+		padding: 0;
+	}
+	.homepage-2 .btn-grey {
+		margin: 0 auto;
+	}
+
+	.homepage-2 #footer .main-footer, .homepage-2 .attorney {
+		padding-top: 50px;
+	}
+	.homepage-2 #footer .listing-continue {
+		margin-top: 0;
 	}
 
 	/*CSS style for Homepage start here*/
@@ -693,15 +861,25 @@
 	#header .navigation {
 		position: relative;
 		top: 0;
-		margin-top: -30px;
-		padding-bottom: 5px;
+		margin-top: -37px;
 		padding: 0;
+		padding-bottom: 5px;
 	}
 	#header .navbar-nav {
 		background: #ddd;
+		padding: 15px 0;
 	}
-	#header .dropdown-menu, #header .navbar-nav .open .dropdown-menu {
-		background: #e7e7e7;
+	#header .nav > li > a:after {
+		display: none;
+	}
+	#header .nav > li {
+		padding-top: 0;
+	}
+	#header .nav > li > a {
+		padding: 5px 0;
+	}
+	.homepage-2 #header .logo {
+		margin-top: 18px;
 	}
 	#header .navbar-default {
 		margin-bottom: 0;
@@ -714,11 +892,43 @@
 		width: 61%;
 		z-index: 999;
 	}
-	#header .nav {
-
-		padding: 10px 0;
+	.banner-slider h2 {
+		font-size: 30px;
+		margin-top: 35%;
+		width: 100%;
+	}
+	.banner-slider span {
+		font-size: 12px;
+		width: 100%;
+		margin-top: 40%;
 	}
 
+	.banner-slider .btn-effect {
+		font-size: 10px;
+		margin-top: 90%;
+		padding: 8px 9px;
+	}
+	.banner-slider .slider-two-content {
+		left: 5% !important;
+	}
+	.banner-slider span.text-slider-two {
+		width: 100%;
+	}
+	.banner-slider .layer1.slider-three-content {
+		top: 10% !important;
+	}
+	.banner-slider span.text-slider-three {
+		width: 95% !important;
+	}
+	.banner-slider .slider-three-content .btn-effect {
+		margin-top: 15% !important;
+	}
+	.banner-slider .slider-three-content h2 {
+		margin-top: 70% !important;
+	}
+	.banner-slider .layer2.slider-three-content {
+		top: 65% !important;
+	}
 	.practice-area {
 		padding-top: 30px;
 		padding-bottom: 0px;
@@ -1260,7 +1470,23 @@
  4) Mobile and Tablet
  ----------------------------------------*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+	.homepage-2 .news-upadte-content {
+		min-height: 400px;
+		padding: 40px 30px;
+		background-size: cover;
+	}
 
+	/*CSS style for homepage start here*/
+
+	.banner-slider .layer3.slider-three-content {
+		top: 64% !important;
+	}
+	.banner-slider .slider-three-content h2 {
+		margin-top: 35% !important;
+	}
+	.banner-slider h2 {
+		margin-top: 70% !important;
+	}
 	.news-testimonial .testimonial-inner {
 		width: 320px;
 	}
@@ -1348,9 +1574,7 @@
 		padding-top: 15px;
 		display: block
 	}
-	.tp-simpleresponsive .item-1 .caption, .tp-simpleresponsive .item-1 .tp-caption {
-		margin-left: 15px !important;
-	}
+
 }
 @media only screen and (max-width: 590px) {
 
@@ -1376,88 +1600,207 @@
 }
 
 /*Banner*/
+@media only screen and (max-width: 1024px) {
+	.homepage-2 .banner-slider .layer-b {
+		width: 34% !important;
+		top: 37% !important;
+	}
+	.homepage-2 .banner-slider .layer-c {
+		left: 70% !important;
+	}
+	#slider.top {
+		margin-top: 60px;
+	}
+	.banner-slider .layer1 {
+		top: 37% !important;
+	}
+	.banner-slider .layer3 {
+		top: 72% !important;
+		left: 56% !important;
+	}
+	.homepage-1 .banner-slider .btn-effect {
+		margin-top: 0;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.banner-slider .layer-a {
+		top: 50% !important;
+	}
+	.banner-slider .layer-b {
+		top: 58% !important;
+	}
+	.banner-slider .layer-c {
+		top: 73% !important;
+		margin-left: -5px !important;
+	}
+	.banner-slider span {
+		margin-top: 0;
+	}
+	#slider.top {
+		margin-top: 60px;
+	}
+	.homepage-2 .banner-slider .layer-a {
+		top: 26% !important;
+	}
+	.homepage-2 .banner-slider .layer-b {
+		width: 58% !important;
+	}
+	.homepage-2 .banner-slider .h1, .homepage-2 .banner-slider h1 {
+		font-size: 42px;
+	}
+	.homepage-2 h1 span {
+		font-size: 20px;
+	}
+	.homepage-2 .banner-slider .layer-a, .homepage-2 .banner-slider .layer-b {
+		left: 36% !important;
+	}
+	.homepage-2 .banner-slider .layer-c {
+		left: 66% !important;
+	}
+	.homepage-2 .banner-slider .layer-c span {
+		font-size: 12px !important;
+		margin-bottom: 9px;
+	}
+}
 
 @media only screen and (max-width: 767px) {
 	.tparrows.preview2:after {
 		margin-top: -8px;
 	}
-	.slide-content-2 {
-		left: 50%;
-		transform: translateY(-50%) translateX(-50%);
-		-webkit-transform: translateY(-50%) translateX(-50%);
-		-ms-transform: translateY(-50%) translateX(-50%);
-	}
-	.slide-content-3 {
-
-		top: 50%;
-		transform: translateY(-50%);
-		-webkit-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-	}
-	.p-text {
-		width: 431px;
-	}
 	.banner-slider h2 {
 		margin-top: 0 !important;
 	}
-
-	.homepage .banner-slider .btn-effect img {
+	.banner-slider .h1 {
+		font-size: 30px !important;
+	}
+	.banner-slider .btn-effect {
+		font-size: 10px;
+		padding: 10px;
+	}
+	.banner-slider .btn-effect img {
 		width: auto !important;
 		height: 20px !important;
 	}
-	.homepage .banner-slider .btn-effect {
-		font-size: 14px !important;
-		line-height: 1.3 !important;
-		padding-left: 50px !important;
-		padding-right: 20px !important;
+	.banner-slider span.text-slider-three, .homepage .banner-slider span {
+		width: 400px !important;
+	}
+
+	.banner-slider .layer-a {
+		top: 12% !important;
+	}
+	.banner-slider .layer-b {
+		top: 0 !important;
+	}
+	.banner-slider .layer-c {
+		top: 49% !important;
+		margin-left: 22px;
 	}
 
 }
 
 @media only screen and (max-width: 480px) {
-	.slide-content-2 {
-		left: 0;
-		transform: translateY(-50%) translateX(0);
-		-webkit-transform: translateY(-50%) translateX(0);
-		-ms-transform: translateY(-50%) translateX(0);
-		width: 100%;
-		padding-left: 15px;
+	.tp-bullets {
+		display: none;
 	}
-	.homepage .banner-slider .h1 {
-		font-size: 37px !important;
+	.banner-slider .h1 {
+		font-size: 30px !important;
 	}
-	.homepage .banner-slider .btn-effect img {
+	.banner-slider .btn-effect {
+		font-size: 10px;
+		padding: 10px;
+	}
+	.banner-slider .btn-effect img {
 		width: auto !important;
 		height: 20px !important;
 	}
-	.homepage .banner-slider .btn-effect {
+	.banner-slider span.text-slider-three, .banner-slider span {
+		width: 280px !important;
+	}
+
+	.banner-slider .layer-a {
+		top: 20% !important;
+	}
+	.banner-slider .layer-b {
+		top: 22% !important;
+	}
+	.banner-slider .layer-c {
+		top: 48% !important;
+		margin-left: 22px;
+	}
+	.homepage-2 .banner-slider .layer-c {
+		left: 20% !important;
+	}
+	.homepage-2 .banner-slider .layer-d {
+		top: 70% !important;
+		left: 79% !important;
+	}
+}
+
+@media only screen and (max-height: 320px) {
+	.banner-slider .h1 {
+		font-size: 18px !important;
+	}
+	.banner-slider span, .banner-slider .p-text {
 		font-size: 12px !important;
 	}
-	.homepage .banner-slider .btn-effect {
-		padding-left: 42px !important;
+
+	.banner-slider .layer-a {
+		top: 15% !important;
 	}
-	.homepage .banner-slider .btn-effect svg {
-		width: 20px;
+	.banner-slider .layer-b {
+		top: 32% !important;
 	}
-	body.homepage .banner-slider span, .p-text {
-		width: 100% !important;
-		padding-right: 20px !important;
-		font-size: 14px !important;
-		line-height: 1.5 !important;
+	.banner-slider .layer-c {
+		top: 57% !important;
+		margin-left: 22px;
+	}
+	.banner-slider .layer-c {
+
+		top: 75% !important;
 	}
 
 }
-@media only screen and (max-width: 480px) {
-	.homepage .banner-slider .item-3 .h1 {
-		font-size: 28px !important;
-		margin-bottom: 10px;
-	}
-	body.homepage .banner-slider .item-3 span {
-		font-size: 11px !important;
-	}
-	.homepage .banner-slider .btn-effect {
-		margin-top: 0;
+
+@media only screen and (max-width: 320px) {
+
+	.banner-slider span.text-slider-three, .banner-slider span {
+		width: auto !important;
 	}
 
+	.banner-slider .layer-a {
+		top: 15% !important;
+	}
+	.banner-slider .layer-b {
+		top: 30% !important;
+	}
+	.banner-slider .layer-c {
+		top: 46% !important;
+		margin-left: 22px;
+	}
+	.homepage-2 .banner-slider .layer-a {
+		top: 6% !important;
+	}
+	.homepage-2 .banner-slider .layer-a, .homepage-2 .banner-slider .layer-b {
+		left: 30px !important;
+	}
+	.homepage-2 .banner-slider .layer-b {
+		width: 82% !important;
+		top: 28% !important;
+	}
+	.homepage-2 .banner-slider .slider-text {
+		font-size: 12px;
+	}
+	.homepage-2 .banner-slider .layer-d, .homepage-2 .banner-slider .layer-d img {
+		width: 40px !important;
+		height: 40px !important;
+	}
+	.homepage-2 .banner-slider .layer-c {
+		left: 37% !important;
+		top: 81% !important;
+	}
+	.homepage-2 .banner-slider .layer-d {
+		top: 77% !important;
+	}
 }
 

@@ -5,9 +5,9 @@ jQuery(document).ready(function() {
 					jQuery('.tp-banner').show().revolution(
 					{
 						dottedOverlay:"none",
-						delay:999916000,
+						delay:16000,
 						startwidth:1170,
-						startheight:706,
+						startheight:800,
 						hideThumbs:200,
 						
 						thumbWidth:100,
@@ -16,7 +16,7 @@ jQuery(document).ready(function() {
 						
 						navigationType:"bullet",
 						navigationArrows:"solo",
-						navigationStyle:"preview6",
+						navigationStyle:"preview2",
 						
 						touchenabled:"on",
 						onHoverStop:"on",
@@ -30,7 +30,7 @@ jQuery(document).ready(function() {
 						parallaxBgFreeze:"on",
 						parallaxLevels:[7,4,3,2,5,4,3,2,1,0],
 												
-						keyboardNavigation:"off",
+						keyboardNavigation:"on",
 						
 						navigationHAlign:"center",
 						navigationVAlign:"bottom",
@@ -74,10 +74,11 @@ jQuery(document).ready(function() {
 						hideCaptionAtLimit:0,
 						hideAllCaptionAtLilmit:0,
 						startWithSlide:0,
-						fullScreenOffsetContainer: "#header"	
+						fullScreenOffsetContainer:"#header"	
 					});
 					
 					
 					
 									
 				});	//ready
+				
